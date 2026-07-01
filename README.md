@@ -190,6 +190,15 @@ This project is licensed under the **GNU Affero General Public License v3.0** (A
 
 See the [LICENSE](LICENSE) file for full details.
 
+## 🧩 Claude-Code Ökosystem — Automatische Installation
+
+Dieses Repo gehört zum dbt94 / Bizzplug Claude-Code-Ökosystem. **Claude-Code-Skills,
+CLIs und der Browser installieren sich automatisch** über den zentralen SessionStart-Hook
+`~/.claude/hooks/auto-install.sh` (aus [`AgentsandSkills`](https://github.com/dbt94/AgentsandSkills))
+— der User installiert nie von Hand. App-eigene Dependencies (siehe *Quick Start* oben)
+sind davon getrennt. Regeln: `AgentsandSkills/rules/GLOBAL-RULES.md` → „AUTOMATISCHE INSTALLATION";
+siehe auch `CLAUDE.md`.
+
 ## 🤝 Contributing
 
 We welcome contributions! Please:
